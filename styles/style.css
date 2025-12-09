@@ -2,14 +2,17 @@
   font-family: Arial, sans-serif;
   line-height: 1.5;
 }
+
 pre {
   background-color: rgb(251, 252, 250);
   padding: 30px;
   line-height: 2;
 }
+
 nav ul li {
   list-style: none;
 }
+
 nav {
   width: 250px;
   height: 100%;
@@ -18,19 +21,23 @@ nav {
   position: fixed;
   border-right: 3px solid rgb(185, 185, 183);
 }
+
 main {
   margin-left: 250px;
   padding: 30px;
 }
+
 nav a {
   text-decoration: none;
-  color: black;
+  color: #000000;
   display: block;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #000000;
 }
+
 nav h2 {
   text-align: center;
 }
+
 nav ul {
   padding-left: 0;
   margin-left: 0;
