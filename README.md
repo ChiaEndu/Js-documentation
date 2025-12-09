@@ -1,6 +1,7 @@
 # JS DOCUMENTATION
-the js documentation is an html document designed with css with a reactive side navigation bar 
+
+the js documentation is an HTML document designed with CSS with a reactive side navigation bar
 
 ## preview
-![js-document-preview](assets/images/preview-doc.png)
 
+![js-document-preview](assets/images/preview-doc.png)
