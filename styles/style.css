@@ -4,7 +4,7 @@
 }
 
 pre {
-  background-color: rgb(251, 252, 250);
+  background-color: rgb(251 252 250);
   padding: 30px;
   line-height: 2;
 }
@@ -19,7 +19,7 @@ nav {
   overflow-y: auto;
   padding-top: 10px;
   position: fixed;
-  border-right: 3px solid rgb(185, 185, 183);
+  border-right: 3px solid rgb(185 185 183);
 }
 
 main {
@@ -29,9 +29,9 @@ main {
 
 nav a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(0 0 0);
   display: block;
-  border-top: 1px solid rgb(0, 0, 0);
+  border-top: 1px solid rgb(0 0 0);
 }
 
 nav h2 {
