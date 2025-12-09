@@ -25,6 +25,7 @@ nav {
 main {
   margin-left: 250px;
   padding: 30px;
+  max-width: 60%;
 }
 
 nav a {
