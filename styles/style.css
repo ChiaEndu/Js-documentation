@@ -1,6 +1,11 @@
 * {
   font-family: Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.7;
+
+}
+
+body {
+  display: flex;
 }
 
 pre {
@@ -22,10 +27,20 @@ nav {
   border-right: 3px solid rgb(185 185 183);
 }
 
+/*.text-area {
+  padding-left: 275px;
+}
+
+main {
+  flex: 1;
+  border: 1px;
+  overflow-wrap: normal;
+  padding: 18px;
+}*/
+
 main {
   margin-left: 250px;
-  padding: 30px;
-  max-width: 60%;
+  padding-left: 30px;
 }
 
 nav a {

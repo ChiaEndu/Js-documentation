@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Documentation</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/style.css"/>
   </head>
   <body>
     <nav>
@@ -115,7 +115,8 @@
           your first "Hello world" JavaScript code:
         </p>
         <pre><code>function greetMe(yourName) { alert("Hello " + yourName); }
-greetMe("World");</code></pre>
+
+          greetMe("World");</code></pre>
         <p>
           Select the code in the pad and hit Ctrl+R to watch it unfold in your
           browser!
@@ -185,7 +186,8 @@ greetMe("World");</code></pre>
           ECMAScript 2015.
         </p>
         <pre><code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is
-not defined</code></pre>
+
+          not defined</code></pre>
       </section>
       <section id="global-variables">
         <h2>Global variables</h2>
@@ -225,14 +227,17 @@ not defined</code></pre>
           variable in the same scope. For example:
         </p>
         <pre><code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
-WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
-//statements }</code></pre>
+
+          WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
+
+            //statements }</code></pre>
         <p>
           However, object attributes are not protected, so the following
           statement is executed without problems
         </p>
         <pre><code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
-"otherValue";</code></pre>
+
+          "otherValue";</code></pre>
       </section>
       <section id="data-types">
         <h2>Data types</h2>
@@ -283,8 +288,10 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
           conditions tested in sequence, as follows:
         </p>
         <pre><code>if (condition_1) { statement_1; } else if (condition_2) {
-statement_2; } else if (condition_n) { statement_n; } else {
-statement_last; }</code></pre>
+
+          statement_2; } else if (condition_n) { statement_n; } else {
+
+            statement_last; }</code></pre>
         <p>
           In the case of multiple conditions only the first logical condition
           which evaluates to true will be executed. To execute multiple
@@ -293,9 +300,12 @@ statement_last; }</code></pre>
           when nesting if statements:
         </p>
         <pre><code>if (condition) { statement_1_runs_if_condition_is_true;
-statement_2_runs_if_condition_is_true; } else {
-statement_3_runs_if_condition_is_false;
-statement_4_runs_if_condition_is_false; }</code></pre>
+
+          statement_2_runs_if_condition_is_true; } else {
+
+            statement_3_runs_if_condition_is_false;
+
+            statement_4_runs_if_condition_is_false; }</code></pre>
         <p>
           It is advisable to not use simple assignments in a conditional
           expression, because the assignment can be confused with equality when
